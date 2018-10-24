@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Página Principal</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="items-left"><a class="active" href="./index.html">TicoRides</a></li>
+                <li class="items-right"><a href="./login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar Session</a></li>
+                <li class="items-right"><a href="./signin.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Registrarme</a></li>
+            </ul>
+        </nav>
+        <div class="content-welcome">
+            <h1>Bienvenidos a TicoRides</h1>
+            <p>
+                Con esta aplicación podras encontrar personas que viajan a tu destino,
+                además podras saber <br> información sobre el conductor y el auto, todo en una sola
+                app.
+            </p>
+            <a class="btn" href="#content-rides">Buscar Ride</a>
+        </div>
+        <div class="content-rides" id="content-rides">
+            <div class="content-second">
+                <h1 class="title">Buscar Un Ride</h1>
+                <br>
+                <input type="text" name="" id="" class="input input-init" placeholder="Inicio">
+                <input type="text" name="" id="" class="input input-final" placeholder="Destino">
+                <br>
+                <label for="" class="title-second">Resultados para paseos que coinciden con sus criterios</label>
+                <hr>
+                <br>
+                <div class="div-table">
+                    <table>
+                        <tr>
+                            <th>Usuario</th>
+                            <th>Inicio</th>
+                            <th>Destino</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Anthony Cardona</td>
+                            <td>fortuna</td>
+                            <td>san carlos</td>
+                            <td><a href="#" class="link-table">Ver</a></td>
+                        </tr>
+                        <tr>
+                            <td>Anthony Cardona</td>
+                            <td>fortuna</td>
+                            <td>san carlos</td>
+                            <td><a href="#" class="link-table">Ver</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p><b>© Copyright</b> - TicoRides 2018</p>
+        </footer>
+    </div>
 </body>
+
 </html>

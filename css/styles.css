@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 4px;
+    line-height: 250px;
+}
+
+.btn:hover {
+    color: #FFF;
+    background-color: #65df69;
+}
+
+.input {
+    border-radius: 5px;
+    border: 2px solid #39c;
+    height: 45px;
+    width:49%;
+    font-size: 18px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title-second {
+    line-height: 60px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    margin-top: 50px;
+}
+
+.container nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+.container nav ul li.items-left {
+    float: left;
+}
+
+.container nav ul li.items-right {
+    float: right;
+}
+
+.container nav ul li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container nav ul li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.container nav ul li a.active {
+    color: #FFF;
+    background-color: #65df69;
+}
+
+div.content-welcome {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e9e9e9;
+    text-align: center;
+}
+
+div.content-welcome h1{
+    line-height: 225px;
+}
+
+div.content-welcome h1, div.content-welcome p {
+    text-align: center;
+}
+
+div.content-rides {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+}
+
+div.content-second {
+    width: 98%;
+    padding-top: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 100%;
+    border: 2px solid #FFF;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    color: #000;
+}
+
+tr:nth-child(even){
+    background-color: #FFF;
+}
+
+.div-table {
+    text-align: center;
+    overflow-x:auto;
+    padding-bottom: 100px;
+}
+
+.footer {
+    clear: both;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+    background-color: #f3f3f3;
+}
