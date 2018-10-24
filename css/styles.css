@@ -173,7 +173,7 @@ tr:nth-child(even){
     justify-items: center;
 }
 
-.content div {
+.content div, div.form-signin {
     padding-top: 20px;
     margin-top: 80px;
     width: 40%;
@@ -183,7 +183,10 @@ tr:nth-child(even){
     text-align: center;
     background-color: #FFF;
 }
-
+div.form-signin {
+    height: 620px;
+    margin-bottom: 80px;
+}
 .content div h3 {
     line-height: 40px;
 }
