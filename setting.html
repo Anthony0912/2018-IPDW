@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Configuración</title>
+    <title>Configuraciónes</title>
 </head>
+
 <body>
-    
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Rides</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li class="items-left"><a href="./dashboard.html">TicoRides</a></li>
+                    <li class="items-left"><a href="./dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i>
+                            Dashboard</a></li>
+                    <li class="items-left"><a href="./rides.html"><i class="fa fa-car" aria-hidden="true"></i>
+                            Rides</a></li>
+                    <li class="items-left"><a class="active" href="./setting.html"><i class="fa fa-cog fa-spin fa-fw"></i>
+                            Configuración</a></li>
+                    <li class="items-right"><img src="./img/no_photo.jpg" alt="no_photo.jpg" width="30px" height="30px"
+                            style="padding:1px 20px 0px 20px;">
+                        <p style="font-size: 11px; text-align: center;">Anthony</p>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-rides-p">
+                <div>
+                    <div class="group-content">
+                        <div class="ingroup-input">
+                            <label for="start">Nombre Completo</label>
+                            <input type="text" name="start" id="start" class="input input-rides" placeholder="Nombre Completo"
+                                required>
+                        </div>
+                        <div class="ingroup-input">
+                            <label for="end">Velocidad promedio</label>
+                            <input type="text" name="end" id="end" class="input input-rides" placeholder="Velocidad promedio"
+                                required>
+                        </div>
+                    </div>
+                    <div class="group-input">
+                        <label for="description">Sobre mi</label>
+                        <textarea name="description" id="description" class="input input-textarea" cols="30" rows="10"
+                            placeholder="Sobre mi" required></textarea>
+                    </div>
+                    <div class="btn-position-center">
+                        <input type="button" value="Cancelar" class="btn">
+                        <input type="button" value="Enviar" class="btn">
+                    </div>
+                </div>
+                <footer class="footer">
+                    <p><b>© Copyright</b> - TicoRides 2018</p>
+                </footer>
+            </div>
+    </body>
+
+    </html>
 </body>
+
 </html>
