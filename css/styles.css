@@ -39,12 +39,26 @@ a {
     background-color: #65df69;
 }
 
+.btn-link-danger{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 4px;
+}
+
+
 .input {
     border-radius: 5px;
     border: 2px solid #39c;
     height: 45px;
     width:49%;
     font-size: 18px;
+}
+
+.input-textarea {
+    width: 100%;
+    height: 150px;
 }
 
 .input-login {
@@ -134,8 +148,15 @@ div.content-rides {
 }
 
 div.content-second {
-    width: 98%;
+    width: 100%;
     padding-top: 140px;
+}
+
+div.content-rides-p {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #d3d3d3;
 }
 
 table {
@@ -191,6 +212,29 @@ div.form-signin {
     line-height: 40px;
 }
 
+div.group-input {
+    padding: 15px;
+}
+div.ingroup-input {
+    width:100%; 
+    padding: 15px;
+}
+.content-rides-d {
+    width: 100%;
+    display: inline-flex;
+    justify-items: center;
+    justify-content: center;
+}
+.input-rides {
+    width: 100%;
+}
+div.group-content {
+    display: flex;
+}
+.btn-position-center {
+    display: flex;
+    justify-content: flex-end;
+}
 .footer {
     clear: both;
     bottom: 0;
@@ -217,6 +261,9 @@ div.content-dashborad {
     .content div {
         width: 60%;
     }
+    .content-rides-d {
+        display: flex;
+    }
 } 
 
 @media screen and (max-width: 660px) {
@@ -230,8 +277,21 @@ div.content-dashborad {
         width:94%;
         margin: 10px;
     }
+    div.ingroup-input {
+        width:43%; 
+    }
 } 
-
+@media screen and (max-width: 580px) {
+    div.content-rides-p {
+        padding-top: 100px;
+    }
+    div.ingroup-input {
+        width: 93%; 
+    }
+    div.group-content {
+        display: inline;
+    }  
+} 
 @media screen and (max-width: 500px) {
     .content div {
         width: 95%;
@@ -252,6 +312,9 @@ div.content-dashborad {
 
     .input {
         width:92%;
+    }
+    div.content-rides, div.content-rides-p {
+        padding-top: 140px;
     }
 }    
 
